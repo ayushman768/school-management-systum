@@ -4,6 +4,35 @@
     display: inline-flex;
 }
 
+
+/* ############## */
+
+.tag {
+    position: fixed;
+    z-index: 99999;
+    background: rgb(255 255 255);
+    width: 100%;
+    padding: 80px;
+    top: -65px;
+    box-shadow: 1px 100px 104px 0px;
+    top: -3px;
+}
+
+.cut {
+    position: fixed;
+    right: 23px;
+    font-size: 18px;
+    font-weight: bold;
+    top: 27px;
+}
+
+#menu-4:checked~.tag {
+    display: none!important;
+}
+
+
+/* ################ */
+
 main {
     font-family: 'Josefin Sans', sans-serif!important;
 }
@@ -25,7 +54,7 @@ header {
     color: white;
     position: sticky;
     top: 0;
-    z-index: 999999;
+    z-index: 0!important;
 }
 
 header,
@@ -221,13 +250,13 @@ h2 {
         background: rgb(255 255 255);
         padding: 50px;
         box-shadow: 1px 100px 104px 0px;
-        top: 3px;
+        top: 2px;
     }
     .cut {
         position: fixed;
         right: 15px;
         top: 30px;
-        font-size: 15px;
+        font-size: 22px;
         font-weight: bold;
     }
     #menu-4:checked~.tag {
