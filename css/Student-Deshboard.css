@@ -4,6 +4,66 @@
     display: inline-flex;
 }
 
+.res {
+    margin: 93px 0px 129px 0px;
+}
+
+
+/* ######################## */
+
+.no {
+    position: absolute;
+    top: -5px;
+    right: -45px;
+    background: rgb(255 0 0);
+    border-radius: 100%;
+    padding: 2px 7px;
+    color: rgb(255 255 255);
+}
+
+.notify {
+    height: 100%;
+    background: rgb(0 0 0);
+    border: rgb(255 255 255);
+    border: 1px solid rgb(255 255 255);
+}
+
+.noti {
+    position: absolute;
+    right: 124px;
+    top: 22px;
+    font-size: 31px;
+    z-index: 9999999;
+}
+
+.data ul li {
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(255 255 255);
+    padding: 10px;
+}
+
+
+/* ######################### */
+
+.make {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.notify,
+.not {
+    display: none;
+}
+
+#notication:checked~.notify {
+    display: block;
+    position: fixed;
+    overflow: scroll;
+    padding: 10px;
+}
+
 
 /* ############## */
 
@@ -74,7 +134,10 @@ section {
 .main-header,
 .books-details,
 .student-details,
-.book-cover {
+.book-cover,
+.result,
+.fee,
+.log-in-arrow {
     width: 100%;
 }
 
@@ -273,6 +336,7 @@ h2 {
         right: 0;
         background: black;
         box-shadow: 5px 8px 10px -1px grey;
+        z-index: 99999999;
     }
     .btn {
         background: rgb(255 255 255)!important;
@@ -374,10 +438,10 @@ ul {
 .month ul li {
     color: white;
     font-size: 20px;
+    margin: 0px 15px 0px -50px!important;
     text-transform: uppercase;
     letter-spacing: 3px;
     display: inline-block!important;
-    margin: 0px 15px 0px -50px!important;
 }
 
 .month .prev {
