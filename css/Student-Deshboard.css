@@ -377,6 +377,7 @@ ul {
     text-transform: uppercase;
     letter-spacing: 3px;
     display: inline-block!important;
+    margin: 0px 15px 0px -50px!important;
 }
 
 .month .prev {
