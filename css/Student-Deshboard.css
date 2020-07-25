@@ -366,6 +366,7 @@ h2 {
     }
     #sett:checked~article .setting {
         display: block;
+        transition: 1.6s;
     }
     .buttn {
         color: gray;
@@ -381,8 +382,10 @@ h2 {
         position: fixed;
         width: 100%;
         /* z-index: 9999999; */
-        top: 296px;
+        top: 345px;
+        transition: 1.6s;
         display: none;
+        transform: translateY(-50px);
     }
     #on:checked~main {
         background-color: black!important;
@@ -483,6 +486,7 @@ h2 {
     .main-header>ul,
     li {
         display: inline-flex!important;
+        margin: 0px -8px;
     }
     nav {
         display: block!important;
