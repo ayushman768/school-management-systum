@@ -13,12 +13,13 @@
 
 .no {
     position: absolute;
-    top: -5px;
-    right: -45px;
+    top: -9px;
+    right: -40px;
     background: rgb(255 0 0);
     border-radius: 100%;
-    padding: 2px 7px;
+    padding: 0px 5px;
     color: rgb(255 255 255);
+    font-size: 18px;
 }
 
 .notify {
@@ -32,8 +33,12 @@
     position: absolute;
     right: 124px;
     top: 22px;
-    font-size: 31px;
+    font-size: 23px;
     z-index: 9999999;
+}
+
+.up {
+    padding: 10px 15px;
 }
 
 .data ul li {
@@ -50,6 +55,12 @@
     font-size: 18px;
     text-align: center;
     padding: 10px;
+}
+
+nav>ul>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 4px!important;
 }
 
 .notify,
@@ -137,7 +148,8 @@ section {
 .book-cover,
 .result,
 .fee,
-.log-in-arrow {
+.log-in-arrow,
+.setting {
     width: 100%;
 }
 
@@ -162,7 +174,7 @@ span {
 span,
 li,
 .main-log {
-    width: 222px;
+    width: 0px;
     display: block!important;
 }
 
@@ -294,6 +306,129 @@ h2 {
         padding: 0px;
         background-color: black!important;
     }
+    /* ############################ */
+    .slider.round:before {
+        border-radius: 50%;
+    }
+    .slider.round {
+        border-radius: 34px;
+    }
+    /* #color:checked~body {
+        background-color: black!important;
+    } */
+    .theam {
+        position: relative;
+    }
+    .theam-1,
+    .theam-2,
+    .theam-3,
+    .theam-4 {
+        z-index: 999999999;
+        padding: 11px 19px;
+        border: 19px;
+        background-color: antiquewhite;
+        border-radius: 100%;
+        color: antiquewhite;
+        margin: -43px 12px 0px 26px;
+    }
+    .theam-2 {
+        background-color: cadetblue;
+        color: cadetblue;
+    }
+    .theam-3 {
+        background-color: lightpink;
+        color: lightpink;
+    }
+    .theam-4 {
+        background-color: yellowgreen;
+        color: yellowgreen;
+    }
+    #theam-1:checked~main {
+        background-color: antiquewhite!important;
+        color: brown;
+    }
+    #theam-2:checked~main {
+        background-color: cadetblue;
+    }
+    #theam-3:checked~main {
+        background-color: lightpink;
+        color: black;
+    }
+    #theam-4:checked~main {
+        background-color: yellowgreen;
+        color: black;
+    }
+    #color:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        background-color: black;
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+    #sett:checked~article .setting {
+        display: block;
+    }
+    .buttn {
+        color: gray;
+        padding: 12px 18px;
+    }
+    #buttn-1:checked~.onof {
+        display: none;
+    }
+    .setting {
+        height: 273px;
+        background: white;
+        box-shadow: 0px -13px 29px -24px black;
+        position: fixed;
+        width: 100%;
+        /* z-index: 9999999; */
+        top: 296px;
+        display: none;
+    }
+    #on:checked~main {
+        background-color: black!important;
+        color: brown;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: gray;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .content,
+    .theam {
+        display: flex;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 34px;
+    }
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .switch span {
+        width: 63px!important;
+    }
+    /* ############################# */
     #menu-2,
     #menu-3 {
         display: none;
@@ -398,9 +533,9 @@ h2 {
         width: 0px!important;
         display: inline-flex;
     }
-    span {
+    /* span {
         width: 0px!important;
-    }
+    } */
     .pas {
         padding: 10px;
         padding-bottom: 94px;
