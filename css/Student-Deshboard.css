@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png);
+    background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png)!important;
     background-size: cover;
     background-position: center;
     /* background: no-repeat; */
