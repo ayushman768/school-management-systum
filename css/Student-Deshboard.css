@@ -8,6 +8,15 @@
     margin: 93px 0px 129px 0px;
 }
 
+body {
+    background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png);
+    background-size: cover;
+    background-position: center;
+    /* background: no-repeat; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 /* ######################## */
 
