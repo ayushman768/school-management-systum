@@ -8,18 +8,6 @@
     margin: 93px 0px 129px 0px;
 }
 
-body {
-    background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png)!important;
-    background-size: cover;
-    background-position: center;
-    /* background: no-repeat; */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-/* ######################## */
-
 .no {
     position: absolute;
     top: -9px;
@@ -293,14 +281,14 @@ h2 {
         box-shadow: 0px 0px 21px -7px black;
         width: 100%;
     }
-    body {
+    /* body {
         background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png)!important;
         background-size: cover;
         background-position: center;
-        /* background: no-repeat; */
+    
         background-repeat: no-repeat;
         background-attachment: fixed;
-    }
+    } */
     .article {
         padding-top: 21px!important;
     }
@@ -357,7 +345,7 @@ h2 {
         color: lightpink;
     }
     .theam-4 {
-        background-color: yellowgreen;
+        background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png)!important;
         color: yellowgreen;
     }
     #theam-1:checked~main {
@@ -372,8 +360,12 @@ h2 {
         color: black;
     }
     #theam-4:checked~main {
-        background-color: yellowgreen;
+        background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png)!important;
         color: black;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     #color:checked+.slider:before {
         -webkit-transform: translateX(26px);
