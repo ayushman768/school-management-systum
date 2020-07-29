@@ -362,10 +362,10 @@ h2 {
     #theam-4:checked~main {
         background-image: url(https://www.schoolmanagement.co.in/wp-content/themes/sms/images/contact-banner.png)!important;
         color: black;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-size: cover!important;
+        background-position: center!important;
+        background-repeat: no-repeat!important;
+        background-attachment: fixed!important;
     }
     #color:checked+.slider:before {
         -webkit-transform: translateX(26px);
